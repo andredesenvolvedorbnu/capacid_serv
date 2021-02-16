@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Lista 09 - Exercício 06</h1>
+        </header>
+        <main>
+            <Section>
+                <div>
+                    <fieldset>
+                        <label for="idNome">Nome: </label>
+                        <input type="text" id="idNome" name="nmNome">
+
+                        <br><br>
+
+                        <input type="radio" id="idFem" name="nmGen">
+                        <label for="idFem">Feminino</label>
+                        <br>
+                        <input type="radio" id="idMas" name="nmGen">
+                        <label for="idMas">Masculino</label>
+
+
+                        <br><br>
+                        <label for="idIdade">Idade: </label>
+                        <input type="number" id=idIdade name="nmIdade">
+
+ 
+                        <br><br>
+
+                        <input type="radio" id="idSaBom" name="nmSaude">
+                        <label for="idSaBom">Saúde "Boa"</label>
+                        <br>
+                        <input type="radio" id="idSaRuim" name="nmSaude">
+                        <label for="idSaRuim">Saúde "Ruim"</label>                       
+
+
+                        <br><br>
+                        <label for="idOut">Selecionado: </label>
+                        <output id="idOut" name="nmOut">?</output>
+                        <br><br>
+                        <input type="Submit" onclick="testaCandidato()">
+                        
+                    </fieldset>
+                </div>
+            </Section>        
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
